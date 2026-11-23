@@ -1,5 +1,5 @@
-# Programme qui qui qui demande à l'utilisateur une chaîne de 
-# caractères et l'affiche à l'envers
+# Programme qui demande à l'utilisateur une chaîne de 
+# caractères et l'affiche à l'envers (Exercice 3)
 # Torontp, Collège Boréal, 23/11/2026
 # D. Minto Dimoune 
 

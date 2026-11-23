@@ -1,5 +1,5 @@
-# Programme qui qui demande à l'utilisateur une phrase et 
-# affiche le nombre de majuscules et de minuscules
+# Programme qui demande à l'utilisateur une phrase et 
+# affiche le nombre de majuscules et de minuscules (Exercice 2)
 # Torontp, Collège Boréal, 23/11/2026
 # D. Minto Dimoune 
 

@@ -2,7 +2,7 @@
 # Torontp, Collège Boréal, 23/11/2026
 # D. Minto Dimoune 
 
-# Demande à l'utilisateur de saisir une chaîne de caractères
+# Demande à l'utilisateur de saisir un mot
 mot = input("Entrez un mot: ")
 
 # Trouvons l'inverse du mot

@@ -3,7 +3,7 @@
 # D. Minto Dimoune 
 
 # Demande à l'utilisateur de saisir une chaîne de caractères
-mot = input("Entrez une mot: ")
+mot = input("Entrez un mot: ")
 
 # Trouvons l'inverse du mot
 mot_inv = mot[::-1]

@@ -5,7 +5,7 @@
 # Torontp, Collège Boréal, 23/11/2026
 # D. Minto Dimoune 
 
-# Demande à l'utilisateur de saisir une phrase
+# Demande à l'utilisateur de saisir un numéro de carte
 numero_cart = input("Entrez votre numéro de carte de crédit: ")
 
 nbre_chiffre = len(numero_cart)

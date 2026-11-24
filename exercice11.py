@@ -14,3 +14,10 @@ numero_cart_list1 = "".join(numero_cart_list)
 numero_cart_list2 = numero_cart_list1.split("-")
 numero_cart_new = "".join(numero_cart_list2)
 
+## Verifions que le numéro de carte obtenu contient uniquement des chiffres
+if numero_cart_new.isdigit() == True:
+    print("Le numéro contient uniquement que des chiffres")
+else:
+    print("Le numéro ne contient pas uniquement que des chiffres")
+    
+

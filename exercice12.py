@@ -35,5 +35,15 @@ elif compteur_min == 1:
 else:
     print("Le mot de passe contient au moins une minuscule")
 
-
+# Vérifions que le mot de passe contient un chiffre
+compteur_num = 0
+for i in range(len(mot_de_passe)):
+    if mot_de_passe[i].isdigit() == True:
+        compteur_num += 1
+if compteur_num == 0:
+    print("Le mot de passe ne contient pas de chiffres")
+elif compteur_num == 1:
+    print("Le mot de passe ontient un chiffre")
+else:
+    print("Le mot de passe contient au moins un chiffre")
 

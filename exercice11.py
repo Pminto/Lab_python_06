@@ -22,3 +22,13 @@ if numero_cart_new.isdigit() != True:
 if len(numero_cart_new) != 16:
     print("Erreur! Assurez-vous que le nombre de chiffres soit 16")
 
+##Masquage du numéro si tout est bon
+nbre_chiffre = len(numero_cart_new)
+
+numero_masque = numero_cart_new.replace(numero_cart_new[:len(numero_cart_new) - 4],"*"*12)
+
+print("Numéro masqué: ",numero_masque)
+
+# Exemple:
+# Entrez votre numéro de carte de crédit contenant des espaces et des - : 1234-5678- 1234-5678-
+# Numéro masqué:  ************5678

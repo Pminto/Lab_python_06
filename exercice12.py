@@ -23,7 +23,17 @@ elif compteur_maj == 1:
 else:
     print("Le mot de passe contient au moins une majuscule")
 
-
+# Vérifions que le mot de passe contient une lettre minuscule
+compteur_min = 0
+for i in range(len(mot_de_passe)):
+    if mot_de_passe[i].islower() == True:
+        compteur_min += 1
+if compteur_min == 0:
+    print("Le mot de passe ne contient pas de minuscule")
+elif compteur_min == 1:
+    print("Le mot de passe ontient une minuscule")
+else:
+    print("Le mot de passe contient au moins une minuscule")
 
 
 

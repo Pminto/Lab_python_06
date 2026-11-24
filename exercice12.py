@@ -47,3 +47,14 @@ elif compteur_num == 1:
 else:
     print("Le mot de passe contient au moins un chiffre")
 
+# Vérifions que le mot de passe contient un caractère spécial
+compteur_special = 0
+for i in range(len(mot_de_passe)):
+    if mot_de_passe[i].isalnum() == False:
+        compteur_special += 1
+if compteur_num == 0:
+    print("Le mot de passe ne contient pas de caractères spéciaux")
+elif compteur_special == 1:
+    print("Le mot de passe ontient un caractère spécial")
+else:
+    print("Le mot de passe contient au moins un caractère spécial")
